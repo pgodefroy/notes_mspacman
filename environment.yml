@@ -1,0 +1,11 @@
+name: notes_mspacman-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip:
+	- scipy
+    - matplotlib
+	- git+https://github.com/davidlu89/mspacman.git
+	- "ipython[all]"
