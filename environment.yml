@@ -2,10 +2,12 @@ name: notes_mspacman-environment
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.6
   - numpy
+  - scipy
+  - pyfftw
   - pip:
-	- scipy
     - matplotlib
-	- git+https://github.com/davidlu89/mspacman.git
-	- "ipython[all]"
+    - "ipython[all]"
+    - "git+https://github.com/davidlu89/pytf.git"
+    - "git+https://github.com/davidlu89/mspacman.git"
