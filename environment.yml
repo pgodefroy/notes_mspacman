@@ -9,9 +9,11 @@ dependencies:
   - pyfftw
   - pip:
     - matplotlib
+    - scikit-learn
     - mne
+    - h5py
     - "ipython[all]"
     - "git+https://github.com/davidlu89/pytf.git"
     - "git+https://github.com/davidlu89/mspacman.git"
     - pacpy
-    - pactools
+    - "git+https://github.com/pactools/pactools.git"
