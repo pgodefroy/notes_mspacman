@@ -10,3 +10,4 @@ pip-delete-this-directory.txt
 
 # Unnecissary files
 .DS_Store
+data/
