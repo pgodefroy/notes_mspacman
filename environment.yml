@@ -15,5 +15,5 @@ dependencies:
     - "ipython[all]"
     - "git+https://github.com/davidlu89/pytf.git"
     - "git+https://github.com/davidlu89/mspacman.git"
-    - pacpy
+    - "git+https://github.com/davidlu89/pacpy.git"
     - "git+https://github.com/pactools/pactools.git"
